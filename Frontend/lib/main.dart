@@ -1,13 +1,21 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
-import 'screens/auth_screen.dart'; // 👈 استدعاء ملف الواجهة المخصص
+import 'package:flutter_riverpod/flutter_riverpod.dart'; // 👈 1. أضيفي هذا السطر لاستيراد المكتبة
+import 'screens/auth_screen.dart'; 
+import 'screens/welcome_screen.dart';
+import 'screens/home/home_screen.dart';
 
 void main() {
-  runApp(const PickNGoApp());
+  // 👈 2. غلّفي الـ MyApp بـ ProviderScope هنا
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
-class PickNGoApp extends StatelessWidget {
-  const PickNGoApp({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,15 +23,10 @@ class PickNGoApp extends StatelessWidget {
       title: 'PickNGo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        useMaterial3: true,
         primaryColor: const Color(0xFF006D32),
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF006D32),
-          primary: const Color(0xFF006D32),
-          background: const Color(0xFFF7FBF1),
-        ),
+        useMaterial3: true,
       ),
-      home: const AuthScreen(), // 👈 الشاشة قادمة من الملف المنفصل بسلاسة
+      home: const HomeScreen(), 
     );
   }
 }

@@ -110,9 +110,10 @@ class _RoleCard extends StatelessWidget {
           default:
             nextScreen = SignupScreen(role: role);
         }
+        
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => nextScreen),
+          MaterialPageRoute(builder: (context) => const RoleSelectionScreen()),
         );
       },
       child: Container(
