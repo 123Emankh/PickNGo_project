@@ -1,0 +1,160 @@
+// lib/core/i18n/translations/settings_translations.dart
+//
+// ترجمات شاشة إعدادات الزبون (Customer Settings) وكل الشاشات الفرعية منها:
+// تغيير كلمة المرور، حول التطبيق، سياسة الخصوصية، شروط الاستخدام.
+
+final Map<String, Map<String, String>> settingsTranslations = {
+  'en': {
+    'settings_title': 'Settings',
+    'settings_section_account': 'Account',
+    'settings_edit_profile': 'Edit Profile',
+    'settings_edit_profile_subtitle': 'Name, phone and address',
+    'settings_change_avatar': 'Change Profile Picture',
+    'settings_change_password': 'Change Password',
+    'settings_change_password_subtitle': 'Update your account password',
+    'settings_order_report': 'Order Report',
+    'settings_order_report_subtitle': 'Your order history and spending summary',
+    'settings_section_preferences': 'Preferences',
+    'settings_language': 'Language',
+    'settings_theme': 'Appearance',
+    'settings_section_about': 'About',
+    'settings_about_app': 'About PickNGo',
+    'settings_privacy_policy': 'Privacy Policy',
+    'settings_terms': 'Terms of Use',
+    'settings_logout': 'Logout',
+    'settings_logout_confirm_title': 'Logout',
+    'settings_logout_confirm_message': 'Are you sure you want to logout?',
+    'settings_cancel': 'Cancel',
+    'settings_confirm': 'Confirm',
+    'settings_avatar_updated': 'Profile picture updated successfully',
+    'settings_avatar_update_failed': 'Failed to update profile picture',
+    'settings_choose_from_gallery': 'Choose from gallery',
+    'settings_select_language': 'Select Language',
+    'settings_select_theme': 'Select Appearance',
+
+    'change_password_title': 'Change Password',
+    'change_password_current': 'Current Password',
+    'change_password_new': 'New Password',
+    'change_password_confirm': 'Confirm New Password',
+    'change_password_err_required': 'This field is required',
+    'change_password_err_too_short': 'Password must be at least 6 characters',
+    'change_password_err_mismatch': 'Passwords do not match',
+    'change_password_submit': 'Update Password',
+    'change_password_success': 'Password changed successfully',
+
+    'about_tagline': 'Everything you need, delivered.',
+    'about_description':
+        'PickNGo connects you with your favorite local restaurants, supermarkets, pharmacies and stores, with fast and reliable delivery to your door.',
+    'about_version': 'Version',
+
+    'privacy_title': 'Privacy Policy',
+    'privacy_body':
+        '## Information We Collect\nWe collect the information you provide when creating an account, such as your full name, email address, phone number and delivery address. If you use the app as a driver, we also collect your live location while you are online in order to match you with nearby orders.\n\n## How We Use Your Information\nWe use your information to process orders, connect you with stores and drivers, send order and account notifications, and improve the app. We do not sell your personal information to third parties.\n\n## Payments\nPayments are processed through our payment partner, HyperPay. We do not store your full card details on our servers — card data is handled directly by the payment provider.\n\n## Location Data\nA customer\'s delivery address is used to route the order to the nearest available store and driver. A driver\'s live location is used only while online, to enable order assignment and delivery tracking, and is not shared after a delivery is completed.\n\n## Data Retention\nWe retain your account and order data for as long as your account is active, or as needed to meet our legal obligations.\n\n## Your Rights\nYou can review and update your profile information at any time from the Settings screen. To request deletion of your account and data, please contact our support team.\n\n## Contact Us\nIf you have questions about this policy, please contact us through the app\'s support channels.',
+
+    'terms_title': 'Terms of Use',
+    'terms_body':
+        '## Acceptance of Terms\nBy creating an account or using PickNGo, you agree to these Terms of Use. If you do not agree, please do not use the app.\n\n## Using the App\nYou must provide accurate information when creating your account and keep your login credentials confidential. You are responsible for all activity under your account.\n\n## Orders and Payments\nOrders are placed directly with the store you select; PickNGo facilitates the ordering and delivery process. Prices, delivery fees and estimated delivery times are shown before you confirm an order. Payments are processed securely through our payment partner.\n\n## Delivery\nDelivery times are estimates and may vary due to traffic, weather, or store preparation time. Please make sure your delivery address and contact number are accurate.\n\n## Cancellations and Refunds\nOrders may be cancelled before a store accepts them. Once an order is being prepared or is out for delivery, cancellation may not be possible. Refund requests are handled on a case-by-case basis through customer support.\n\n## Account Suspension\nWe may suspend or terminate accounts that violate these terms, provide false information, or misuse the platform.\n\n## Changes to These Terms\nWe may update these terms from time to time. Continued use of the app after changes means you accept the updated terms.\n\n## Contact Us\nFor any questions about these terms, please contact us through the app\'s support channels.',
+  },
+  'ar': {
+    'settings_title': 'الإعدادات',
+    'settings_section_account': 'الحساب',
+    'settings_edit_profile': 'تعديل الملف الشخصي',
+    'settings_edit_profile_subtitle': 'الاسم والهاتف والعنوان',
+    'settings_change_avatar': 'تغيير الصورة الشخصية',
+    'settings_change_password': 'تغيير كلمة المرور',
+    'settings_change_password_subtitle': 'تحديث كلمة مرور حسابك',
+    'settings_order_report': 'تقرير الطلبات',
+    'settings_order_report_subtitle': 'سجل طلباتك وملخص إنفاقك',
+    'settings_section_preferences': 'التفضيلات',
+    'settings_language': 'اللغة',
+    'settings_theme': 'المظهر',
+    'settings_section_about': 'حول التطبيق',
+    'settings_about_app': 'عن بيك إن قو',
+    'settings_privacy_policy': 'سياسة الخصوصية',
+    'settings_terms': 'شروط الاستخدام',
+    'settings_logout': 'تسجيل خروج',
+    'settings_logout_confirm_title': 'تسجيل الخروج',
+    'settings_logout_confirm_message': 'هل أنت متأكد من رغبتك بتسجيل الخروج؟',
+    'settings_cancel': 'إلغاء',
+    'settings_confirm': 'تأكيد',
+    'settings_avatar_updated': 'تم تحديث الصورة الشخصية بنجاح',
+    'settings_avatar_update_failed': 'فشل تحديث الصورة الشخصية',
+    'settings_choose_from_gallery': 'اختيار من المعرض',
+    'settings_select_language': 'اختر اللغة',
+    'settings_select_theme': 'اختر المظهر',
+
+    'change_password_title': 'تغيير كلمة المرور',
+    'change_password_current': 'كلمة المرور الحالية',
+    'change_password_new': 'كلمة المرور الجديدة',
+    'change_password_confirm': 'تأكيد كلمة المرور الجديدة',
+    'change_password_err_required': 'هذا الحقل مطلوب',
+    'change_password_err_too_short': 'يجب أن تكون كلمة المرور 6 أحرف على الأقل',
+    'change_password_err_mismatch': 'كلمتا المرور غير متطابقتين',
+    'change_password_submit': 'تحديث كلمة المرور',
+    'change_password_success': 'تم تغيير كلمة المرور بنجاح',
+
+    'about_tagline': 'كل ما تحتاجه، يُوصَل إليك.',
+    'about_description':
+        'بيك إن قو يربطك بمطاعمك وسوبرماركتاتك وصيدلياتك ومتاجرك المفضلة، مع توصيل سريع وموثوق حتى باب بيتك.',
+    'about_version': 'الإصدار',
+
+    'privacy_title': 'سياسة الخصوصية',
+    'privacy_body':
+        '## المعلومات التي نجمعها\nنجمع المعلومات التي تزوّدنا بها عند إنشاء حسابك، مثل الاسم الكامل والبريد الإلكتروني ورقم الهاتف وعنوان التوصيل. إذا كنت تستخدم التطبيق كسائق، نجمع أيضًا موقعك اللحظي أثناء تواجدك بحالة "متصل" لربطك بالطلبات القريبة منك.\n\n## كيف نستخدم معلوماتك\nنستخدم معلوماتك لمعالجة الطلبات، وربطك بالمتاجر والسائقين، وإرسال إشعارات الطلبات والحساب، وتحسين التطبيق. نحن لا نبيع معلوماتك الشخصية لأي طرف ثالث.\n\n## المدفوعات\nتتم معالجة المدفوعات عبر شريكنا في الدفع، HyperPay. نحن لا نخزّن بيانات بطاقتك الكاملة على خوادمنا — بيانات البطاقة تتم معالجتها مباشرة من مزوّد خدمة الدفع.\n\n## بيانات الموقع\nيُستخدم عنوان توصيل الزبون لتوجيه الطلب لأقرب متجر وسائق متاحين. أما موقع السائق اللحظي فيُستخدم فقط أثناء تواجده بحالة "متصل" لتفعيل تعيين الطلبات وتتبع التوصيل، ولا يتم مشاركته بعد انتهاء التوصيل.\n\n## الاحتفاظ بالبيانات\nنحتفظ ببيانات حسابك وطلباتك طالما أن حسابك نشط، أو بالقدر اللازم للوفاء بالتزاماتنا القانونية.\n\n## حقوقك\nيمكنك مراجعة وتحديث بيانات ملفك الشخصي في أي وقت من شاشة الإعدادات. لطلب حذف حسابك وبياناتك، يرجى التواصل مع فريق الدعم.\n\n## تواصل معنا\nإذا كان لديك أي استفسار حول هذه السياسة، يرجى التواصل معنا عبر قنوات الدعم داخل التطبيق.',
+
+    'terms_title': 'شروط الاستخدام',
+    'terms_body':
+        '## قبول الشروط\nباستخدامك تطبيق بيك إن قو أو إنشائك حسابًا فيه، فإنك توافق على شروط الاستخدام هذه. إذا كنت لا توافق عليها، يرجى عدم استخدام التطبيق.\n\n## استخدام التطبيق\nيجب عليك تقديم معلومات صحيحة عند إنشاء حسابك، والحفاظ على سرية بيانات تسجيل الدخول الخاصة بك. أنت مسؤول عن كل نشاط يتم عبر حسابك.\n\n## الطلبات والمدفوعات\nيتم تقديم الطلبات مباشرة إلى المتجر الذي تختاره، ويقوم بيك إن قو بتسهيل عملية الطلب والتوصيل. تظهر لك الأسعار ورسوم التوصيل والوقت التقديري للتوصيل قبل تأكيد الطلب. تتم معالجة المدفوعات بشكل آمن عبر شريكنا في الدفع.\n\n## التوصيل\nأوقات التوصيل تقديرية وقد تختلف بسبب الازدحام أو الطقس أو وقت تحضير الطلب في المتجر. يرجى التأكد من صحة عنوان التوصيل ورقم التواصل الخاص بك.\n\n## الإلغاء والاسترجاع\nيمكن إلغاء الطلب قبل أن يقبله المتجر. بعد بدء تحضير الطلب أو خروجه للتوصيل، قد لا يكون الإلغاء ممكنًا. يتم التعامل مع طلبات الاسترجاع حالة بحالة عبر خدمة العملاء.\n\n## تعليق الحساب\nيحق لنا تعليق أو إنهاء أي حساب يخالف هذه الشروط، أو يقدّم معلومات غير صحيحة، أو يسيء استخدام المنصة.\n\n## تعديلات على هذه الشروط\nقد نقوم بتحديث هذه الشروط من وقت لآخر. استمرارك باستخدام التطبيق بعد أي تعديل يعني موافقتك على الشروط المحدثة.\n\n## تواصل معنا\nلأي استفسار حول هذه الشروط، يرجى التواصل معنا عبر قنوات الدعم داخل التطبيق.',
+  },
+  'fr': {
+    'settings_title': 'Paramètres',
+    'settings_section_account': 'Compte',
+    'settings_edit_profile': 'Modifier le profil',
+    'settings_edit_profile_subtitle': 'Nom, téléphone et adresse',
+    'settings_change_avatar': 'Changer la photo de profil',
+    'settings_change_password': 'Changer le mot de passe',
+    'settings_change_password_subtitle': 'Mettre à jour le mot de passe du compte',
+    'settings_order_report': 'Rapport de commandes',
+    'settings_order_report_subtitle': 'Historique de vos commandes et dépenses',
+    'settings_section_preferences': 'Préférences',
+    'settings_language': 'Langue',
+    'settings_theme': 'Apparence',
+    'settings_section_about': 'À propos',
+    'settings_about_app': 'À propos de PickNGo',
+    'settings_privacy_policy': 'Politique de confidentialité',
+    'settings_terms': "Conditions d'utilisation",
+    'settings_logout': 'Déconnexion',
+    'settings_logout_confirm_title': 'Déconnexion',
+    'settings_logout_confirm_message': 'Voulez-vous vraiment vous déconnecter ?',
+    'settings_cancel': 'Annuler',
+    'settings_confirm': 'Confirmer',
+    'settings_avatar_updated': 'Photo de profil mise à jour avec succès',
+    'settings_avatar_update_failed': 'Échec de la mise à jour de la photo de profil',
+    'settings_choose_from_gallery': 'Choisir depuis la galerie',
+    'settings_select_language': 'Choisir la langue',
+    'settings_select_theme': "Choisir l'apparence",
+
+    'change_password_title': 'Changer le mot de passe',
+    'change_password_current': 'Mot de passe actuel',
+    'change_password_new': 'Nouveau mot de passe',
+    'change_password_confirm': 'Confirmer le nouveau mot de passe',
+    'change_password_err_required': 'Ce champ est requis',
+    'change_password_err_too_short': 'Le mot de passe doit contenir au moins 6 caractères',
+    'change_password_err_mismatch': 'Les mots de passe ne correspondent pas',
+    'change_password_submit': 'Mettre à jour le mot de passe',
+    'change_password_success': 'Mot de passe changé avec succès',
+
+    'about_tagline': 'Tout ce dont vous avez besoin, livré.',
+    'about_description':
+        "PickNGo vous connecte à vos restaurants, supermarchés, pharmacies et magasins locaux préférés, avec une livraison rapide et fiable jusqu'à votre porte.",
+    'about_version': 'Version',
+
+    'privacy_title': 'Politique de confidentialité',
+    'privacy_body':
+        "## Informations que nous collectons\nNous collectons les informations que vous fournissez lors de la création de votre compte, telles que votre nom complet, votre adresse e-mail, votre numéro de téléphone et votre adresse de livraison. Si vous utilisez l'application en tant que livreur, nous collectons également votre position en temps réel lorsque vous êtes en ligne afin de vous associer aux commandes à proximité.\n\n## Comment nous utilisons vos informations\nNous utilisons vos informations pour traiter les commandes, vous mettre en relation avec les magasins et les livreurs, envoyer des notifications relatives aux commandes et au compte, et améliorer l'application. Nous ne vendons pas vos informations personnelles à des tiers.\n\n## Paiements\nLes paiements sont traités par notre partenaire de paiement, HyperPay. Nous ne stockons pas les détails complets de votre carte sur nos serveurs — les données de carte sont traitées directement par le prestataire de paiement.\n\n## Données de localisation\nL'adresse de livraison d'un client est utilisée pour acheminer la commande vers le magasin et le livreur disponibles les plus proches. La position en temps réel d'un livreur n'est utilisée que lorsqu'il est en ligne, afin de permettre l'attribution des commandes et le suivi de la livraison, et n'est pas partagée après la fin d'une livraison.\n\n## Conservation des données\nNous conservons les données de votre compte et de vos commandes tant que votre compte est actif, ou aussi longtemps que nécessaire pour respecter nos obligations légales.\n\n## Vos droits\nVous pouvez consulter et mettre à jour les informations de votre profil à tout moment depuis l'écran Paramètres. Pour demander la suppression de votre compte et de vos données, veuillez contacter notre équipe d'assistance.\n\n## Nous contacter\nSi vous avez des questions concernant cette politique, veuillez nous contacter via les canaux d'assistance de l'application.",
+
+    'terms_title': "Conditions d'utilisation",
+    'terms_body':
+        "## Acceptation des conditions\nEn créant un compte ou en utilisant PickNGo, vous acceptez les présentes conditions d'utilisation. Si vous n'êtes pas d'accord, veuillez ne pas utiliser l'application.\n\n## Utilisation de l'application\nVous devez fournir des informations exactes lors de la création de votre compte et garder vos identifiants de connexion confidentiels. Vous êtes responsable de toute activité effectuée depuis votre compte.\n\n## Commandes et paiements\nLes commandes sont passées directement auprès du magasin que vous sélectionnez ; PickNGo facilite le processus de commande et de livraison. Les prix, frais de livraison et délais estimés sont affichés avant la confirmation de la commande. Les paiements sont traités de manière sécurisée par notre partenaire de paiement.\n\n## Livraison\nLes délais de livraison sont estimatifs et peuvent varier en fonction du trafic, de la météo ou du temps de préparation du magasin. Veuillez vous assurer que votre adresse de livraison et votre numéro de contact sont exacts.\n\n## Annulations et remboursements\nUne commande peut être annulée avant d'être acceptée par le magasin. Une fois la commande en préparation ou en cours de livraison, l'annulation peut ne plus être possible. Les demandes de remboursement sont traitées au cas par cas par le service client.\n\n## Suspension de compte\nNous pouvons suspendre ou résilier tout compte qui enfreint ces conditions, fournit de fausses informations ou utilise abusivement la plateforme.\n\n## Modifications de ces conditions\nNous pouvons mettre à jour ces conditions de temps à autre. La poursuite de l'utilisation de l'application après une modification signifie que vous acceptez les conditions mises à jour.\n\n## Nous contacter\nPour toute question concernant ces conditions, veuillez nous contacter via les canaux d'assistance de l'application.",
+  },
+};

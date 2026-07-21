@@ -1,0 +1,14 @@
+node_modules
+.env
+
+backend/node_modules
+
+Frontend/build
+Frontend/.dart_tool
+Frontend/.idea
+Frontend/.packages
+Frontend/.flutter-plugins
+Frontend/.flutter-plugins-dependencies
+
+# Claude Code local config/permissions - not part of the app itself
+.claude/
